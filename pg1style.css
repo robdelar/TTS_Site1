@@ -4,11 +4,13 @@
     font-family: sans-serif;
 }
 
+
 .banner{
+    z-index: -1;
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     background-image:url(assets/mainbckgr.png);
     background-size: cover;
 }
@@ -28,7 +30,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
     width: 20%;
     margin-top: -50px;
 }
@@ -46,9 +47,42 @@
     /* align-items: center; */
 }
 
+.minnames ul li{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    list-style: none;
+    /* display: inline-block; */
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 120px;
+    
+}
+
+.minnames{
+    margin-top: 300px;
+    margin-right: 700px;
+    float: right;
+    /* background-color: white; */
+   
+}
+
+.images{
+    z-index: 0;
+    width: 20%;
+    display: grid;
+    left: 100px;
+    top: 100px;
+    margin-bottom: 10px;
+    /* justify-content: space-between; */
+    position: relative;
+}
+
+
 .navbar{
+    z-index: 1;
+    position: fixed;
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     background-color: grey;
     padding-top: 5px;
     padding-bottom: 5px;
